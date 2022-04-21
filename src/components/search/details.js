@@ -1,11 +1,15 @@
+import { useState } from "react";
 function Details({ theData }) {
+  console.log(theData);
   return (
     <div className="details">
       <div className="title-of-details d-flex align-items-center">
         <img src={theData.avatar_url} alt="" width="120px" />
         <div className="text-white">
-          <h6>{theData.login}</h6>
-          <p>{theData.name}</p>
+          <h6 className="mb-2">{theData.login}</h6>
+          <p className="mb-2">
+            {theData.name !== null ? `@${theData.name}` : null}
+          </p>
           <p>{theData.created_at}</p>
         </div>
       </div>

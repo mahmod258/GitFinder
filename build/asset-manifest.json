@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.6895c878.css",
-    "main.js": "/react-app/static/js/main.b6688c3c.js",
-    "index.html": "/react-app/index.html",
-    "main.6895c878.css.map": "/react-app/static/css/main.6895c878.css.map",
-    "main.b6688c3c.js.map": "/react-app/static/js/main.b6688c3c.js.map"
+    "main.css": "/GitFinder/static/css/main.6895c878.css",
+    "main.js": "/GitFinder/static/js/main.1eab2c0e.js",
+    "index.html": "/GitFinder/index.html",
+    "main.6895c878.css.map": "/GitFinder/static/css/main.6895c878.css.map",
+    "main.1eab2c0e.js.map": "/GitFinder/static/js/main.1eab2c0e.js.map"
   },
   "entrypoints": [
     "static/css/main.6895c878.css",
-    "static/js/main.b6688c3c.js"
+    "static/js/main.1eab2c0e.js"
   ]
 }

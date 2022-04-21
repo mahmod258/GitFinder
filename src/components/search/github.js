@@ -8,13 +8,14 @@ function Github() {
   const [data, setData] = useState({});
   useEffect(() => {
     fetch(`https://api.github.com/users/${username}`)
+      .catch((err) => console.log(err))
       .then((res) => {
         return res.json();
       })
       .then((data) => {
         setData(data);
-      })
-      .catch((err) => console.log(err));
+        console.log("hello");
+      });
   }, [username]);
   return (
     <div className="github">
